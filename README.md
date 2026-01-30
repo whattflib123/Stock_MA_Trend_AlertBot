@@ -5,6 +5,13 @@
 
 ---
 
+#### 實際顯示畫面
+
+![](pic/test1.jpeg)
+
+---
+
+
 ## 功能
 
 * 自動抓取股票歷史價格（使用 yfinance）
@@ -96,6 +103,7 @@ python stock_detector.py
 接近SMA200
 🟢MSFT 限價 305.40 距離 0.50%
 ```
+
 
 ---
 
