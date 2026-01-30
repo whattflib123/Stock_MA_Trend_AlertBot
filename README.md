@@ -50,11 +50,16 @@ pip install yfinance pandas requests
    * 用 [BotFather](https://t.me/botfather) 建立 Bot，取得 `BOT_TOKEN`
    * 找到你的 `CHAT_ID`（可用 `@userinfobot` 或寫程式測試）
 
-2. **修改程式變數**
+2. **環境變數（或直接將TOKEN 跟 CHAT_ID 置於程式碼也可以）**
+
+```bash
+export TELEGRAM_BOT_TOKEN="YOUR_BOT_TOKEN"
+export CHAT_ID="YOUR_CHAT_ID"
+```
+
+3. **修改程式變數（股票與參數）**
 
 ```python
-TELEGRAM_BOT_TOKEN = "YOUR_BOT_TOKEN"
-CHAT_ID = "YOUR_CHAT_ID"
 STOCK_LIST = ["AAPL", "AMZN", "MSFT"]  # 追蹤的股票
 NEAR_PERCENT = 0.01  # 股價接近均線 ±1% 觸發通知
 EMA_LONG = 576        # 長期 EMA（可自訂）
@@ -93,6 +98,5 @@ python stock_detector.py
 ```
 
 ---
-
 
 
