@@ -16,7 +16,7 @@ CHAT_ID = os.getenv("CHAT_ID") or ""
 
 
 # ========= 股票清單 =========
-STOCK_LIST = ["ASML", "COST", "AMZN", "MSFT", "AMD", "AAPL", "GOOGL", "META"]
+STOCK_LIST = ["ASML", "COST", "AMZN", "MSFT", "AMD", "AAPL", "GOOGL", "META", "CRCL", "PLTR", "COIN", "QQQ", "TSLA", "NVDA"]
 
 NEAR_PERCENT = 0.01  # 1%
 
